@@ -21,7 +21,7 @@ public class Main {
                 String cname=scanner.nextLine();
 
                 System.out.println("Enter the seller name:");
-                String sname=scanner.nextLine();
+                String name=scanner.nextLine();
 
                 System.out.println("Enter the first item1:");
                 String item1=scanner.nextLine();
@@ -59,7 +59,7 @@ public class Main {
 
                 System.out.println("________________________________________");
                 System.out.println("Thanks you for shopping with us "+cname);
-                System.out.println("You have been served by "+sname);
+                System.out.println("You have been served by "+name);
                 System.out.println("You have paid "+amountpaid +" Ugx");
                 System.err.println("Total cost: "+total);
                 System.out.println("Your balance is "+balance +" Ugx");
